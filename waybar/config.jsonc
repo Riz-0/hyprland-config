@@ -1,7 +1,6 @@
 {
-	"height": 30,
+	"height": 36,
 	"width": 1880,
-	"spacing": 8,
 	"margin-top": 20,
 	// Left side
 	"modules-left": [
