@@ -1,3 +1,22 @@
 * {
 	font-family: "Fantasque Sans M Nerd Font";
 }
+
+window#waybar {
+	background-color: transparent;
+}
+
+.module {
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 0 8px;
+	border-radius: 8px;
+}
+
+#workspaces button {
+	color: #fff;
+}
+
+#workspaces button.active {
+	color: rgba(138,43,226, 1);
+}
