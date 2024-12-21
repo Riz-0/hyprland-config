@@ -28,3 +28,10 @@ window#waybar {
 #workspaces button.active {
 	color: rgba(138,43,226, 1);
 }
+
+#workspaces button:hover {
+	background: none;
+	border: none;
+	box-shadow: none;
+	transition: none;
+}
