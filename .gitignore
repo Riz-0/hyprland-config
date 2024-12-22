@@ -8,3 +8,6 @@
 
 !waybar
 !waybar/*
+
+!rofi
+!rofi/*

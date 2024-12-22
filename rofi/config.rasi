@@ -1,0 +1,63 @@
+// I HAVE NO IDEA WHAT I'M DOING
+// BUT IT'S WORKING SO LET'S KEEP IT THAT WAY
+// GONNA COMMIT IN CASE THIS BREAKS
+
+configuration {
+	font: "Fantasque Sans M Nerd Font 12";
+	show-icons: true;
+	icon-theme: "Papirus";
+	display-drun: " ";
+}
+
+window {
+	padding: 8px 8px;
+	width: 15%;
+	border-radius: 10px;
+	background-color: #252525;
+	border-color: #8f74dc;
+	border: 5px;
+}
+
+mainbox {
+	children: [listview, inputbar];
+}
+
+// -- Input Bar -- //
+
+inputbar {
+	margin: 8px 0px 8px;
+	children: [ prompt, entry ]; // this gets rid of search count
+}
+
+prompt {
+	color: white;
+	margin: 0 8px 0 0;
+}
+
+
+entry {
+	color: white;
+}
+
+// -- Elements -- //
+
+listview {
+	lines: 9;
+	border: 0;
+}
+
+element.normal.normal,
+element.alternate.normal {
+	background-color: #252525;
+	text-color: white;
+
+}
+
+element.selected.normal {
+	border-radius: 10px;
+	background-color: #8f74dc;
+}
+
+scrollbar {
+	handle-width: 0px;
+}
