@@ -3,7 +3,7 @@
 // GONNA COMMIT IN CASE THIS BREAKS
 
 configuration {
-	font: "Fantasque Sans M Nerd Font 12";
+	font: "Jetbrains Mono Nerd Font 11";
 	show-icons: true;
 	icon-theme: "Papirus";
 	display-drun: " ";
